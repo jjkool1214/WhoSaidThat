@@ -1,0 +1,52 @@
+#quote{
+    color: var(--text-color);
+}
+
+#container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 800px;
+    height: 800px;
+}
+
+
+#user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#answer-box{
+    width: 300px;
+    font-size: 24px;
+}
+
+#submit-button{
+    width: 200px;
+    font-size: large;
+}
+
+#quote{
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    vertical-align: top;
+    padding: 5%
+}
+
+#display-message{
+    font-size: 36px;
+}
+
+#score{
+    font-size: 36px;
+}
+
+#last-answer{
+    font-size: 24px;
+}
