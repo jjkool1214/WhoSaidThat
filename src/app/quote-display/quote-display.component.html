@@ -1,0 +1,12 @@
+<div id="container-main">
+    <div id="quote-container">
+        <p id="quote">{{currentQuote}}</p>
+    </div>
+    <div id="user-info">
+        <input type="text" id="answer-box" (keydown.enter)="OnSubmit()"><br>
+        <button id="submit-button" (click)="OnSubmit()" >Submit</button>
+        <p id="display-message">{{currDisplayMessage}}</p>
+        <p id="score">Streak: {{score}}</p>
+        <p id="last-answer">{{lastAnswer}}</p>
+    </div>
+</div>

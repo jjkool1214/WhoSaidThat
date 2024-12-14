@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #3E6259;
+}
+
+:root{
+    --text-color : #212922; 
+}
+
+h1{
+    color: white
+}
